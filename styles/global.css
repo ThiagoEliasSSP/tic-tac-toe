@@ -1,0 +1,26 @@
+:root {
+    --Color-secondary : #151C2B;
+    --Color-primary : #EDF5FA;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+    overflow: hidden;
+    position: fixed;
+    background-color: var(--Color-primary);
+}
