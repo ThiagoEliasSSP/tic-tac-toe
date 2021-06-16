@@ -29,3 +29,34 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+    width: 7rem;
+    height: auto;
+    font: 700 1.6rem Archivo;
+}
+
+input:focus
+{
+	outline:0;
+}
+
+input,
+textarea
+{
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}

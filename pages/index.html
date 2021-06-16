@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/board.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/players.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Tic-Tac-Toe</title>
@@ -16,14 +17,29 @@
 <body>
     <div class="container">
         <h1>Tic-Tac-Toe</h1>
-        <div class="box-players">
-            <div class="player">
-
+        <div class="row-players">
+            <div class="player" id="player1">
+                <span>
+                    <img src="../icons/close_24px_outlined.svg" alt="" class="id-symbol">
+                    <div class="breath"></div>
+                    <input type="text" value="Player 1" class="player-name">
+                    <div class="box-user">
+                        <img src="../icons/sentiment_satisfied_24px_outlined.svg" alt="" class="img-user">
+                    </div>
+                </span>
+                <input type="text" value="0" class="pontuation">
             </div>
-            <div class="player">
-
+            <div class="player" id="player2">
+                <span>
+                    <img src="../icons/radio_button_unchecked_24px_outlined.svg" alt="" class="id-symbol">
+                    <div class="breath"></div>
+                    <input type="text" value="Player 2" class="player-name">
+                    <div class="box-user">
+                        <img src="../icons/sentiment_satisfied_24px_outlined.svg" alt="" class="img-user">
+                    </div>
+                </span>
+                <input type="text" value="0" class="pontuation">
             </div>
-            <div class="player"></div>
         </div>
         <ul class="board">
             <li class="homes" id="1"></li>
