@@ -1,5 +1,5 @@
 .player{
-    width: 34rem;
+    width: 36rem;
     height: 7.5rem;
 
     display: flex;
@@ -61,4 +61,12 @@
     justify-content: center;
     border: 3px solid var(--font-color);
     background-color: var(--details-color);
+}
+
+.breath{
+    width: .3rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: #000;
+    opacity: .25;
 }
