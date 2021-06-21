@@ -31,3 +31,42 @@ h1{
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
 }
+
+.box-winner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60rem;
+    height: 30rem;
+    position: absolute;
+    z-index: 2;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    top: 35%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+
+}
+
+.box-winner p {
+    font: 700 5rem Archivo;
+    color: var(--font-color);
+}
+
+.box-winner a {
+    margin-top: 5rem;
+    font: 500 2rem Archivo;
+    color: var(--font-color);
+}
+
+.active{
+    display: inherit;
+}
+
+#reseatPage{
+    position: absolute;
+    z-index: 3;
+    top: 5px;
+    right: 5px;
+}
