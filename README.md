@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Welcome to tic-tac-toe 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/tic-tac-toe" target="_blank">
